@@ -13,7 +13,6 @@ def main():
     parser.add_argument("--panel-file", '-p', help="Input panel file.", dest="panel_file", required=True)
 
     args = parser.parse_args()
-    print("Hello world!")
 
 
 if __name__ == "__main__":
