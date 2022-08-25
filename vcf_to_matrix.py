@@ -41,4 +41,6 @@ def read_input_files(args) -> None:
 
     matrix = pd.DataFrame(genotypes, columns=variant_ids, index=samples)  # save a copy to use in collab for plot
     matrix['Population code'] = matrix.index.map(labels)
-    matrix.to_csv("./data/matrix.csv")
+    matrix.to_csv(args.matrix_file)
+
+    print(f"Matrix is written to: {args.matrix_file}")
