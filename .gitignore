@@ -1,3 +1,5 @@
 .idea
-data
 __pycache__/
+data/ALL.chr22.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz
+data/ALL.chr22.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz.tbi
+data/phase1_integrated_calls.20101123.ALL.panel
